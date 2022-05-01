@@ -24,8 +24,8 @@ ____________________
 
 ## Implementation details
 - How you implemented OpenHashSet’s table?  
-Defined a wrapper-class that has-a LinkedList<String> and delegates methods to it, and have an array of that class instead.
-I chose this because i had no idea at the begenning how to write the code of the CollectionFacadeSet in order to extend it.
-
+Defined a wrapper-class that has-a LinkedList<String> and delegates methods to it, and have an array of that class instead.  
+I chose this because i had no idea at the begenning how to write the code of the CollectionFacadeSet in order to extend it.  
+  
 - How you implemented the deletion mechanism in ClosedHashSet?  
-I put an empty string ("") instead of the deleted value.
+I put an empty string ("") instead of the deleted value.  
